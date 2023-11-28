@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My World</title>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="./images/image.png" class="headimg">
+        <div class="gamebord"><p class="scoress">Score :&nbsp;<a id="scores">0</a></p></div>
+        <p class="title">My World</p>
+    </header>
+    <div class="mainparts">
+        <aside class="menu-sidebar">
+            <a href="#" class="navlink">Home</a>
+            <a href="#" class="navlink">About</a>
+            <a href="#" class="navlink">Contact</a>
+        </aside>
+        <main id="game-container" class="game">
+          <img id="heart" src="./images/heart.png" alt="Heart" width="100" height="100">
+        </main>
+        <aside class="advertisement">
+            <a href="https://a.co/d/cWo3XED" target="_blank">
+                <img src="./images/adver.jpg" alt="Advertisement">
+            </a>
+        </aside>
+    </div>
+    <footer>
+        <!-- Your addendum goes here -->
+        <p>Addendum:
+
+         <br> In crafting this web page, I aimed to create a dynamic and engaging user experience titled "My World." The page incorporates a visually appealing header, main content area, and footer, leveraging HTML, CSS, and JavaScript. Here's a breakdown of the key components:</br>
+          
+         <br> HTML Structure:</br>
+          
+          <br>- Header: Includes a logo (`image.png`), a game board displaying the current score, and the title "My World."</br>
+            
+          <br>- Main Content Area: Divided into three parts:</br>
+           <br> - Menu Sidebar (Aside): Features navigational links ("Home," "About," and "Contact").</br>
+           <br> - Game Area (Main): Contains an interactive heart (`heart.png`) that, when clicked, increments the score and displays an alert.</br>
+           <br> - Advertisement Sidebar (Aside): Displays an external link with an image (`adver.jpg`).</br>
+          
+         <br> - Footer: Provides an addendum section to offer insights into the purpose of the code and its components.</br>
+          
+          <br>CSS Styling:</br>
+          
+         <br> - Body: Sets margin and padding to zero for a clean layout.</br>
+          
+         <br> - Header & Footer: Styled with padding, background color, and a flex layout for a visually appealing design.</br>
+          
+         <br> - Main Parts (`.mainparts`): Utilizes flex layout for a responsive display.</br>
+          
+         <br> - Menu Sidebar (`.menu-sidebar`): Styled as a column, with bold and visually distinct navigation links.</br>
+          
+         <br> - Advertisement (`.advertisement`): Sets a fixed height for the image to ensure a consistent display.</br>
+          
+          <br>- Media Query (`.@media (max-width: 768px)`): Hides the sidebar on smaller screens for better mobile responsiveness.</br>
+          
+           <br>JavaScript (script.js):</br>
+          
+          <br>- Implements interactivity by incrementing the score and displaying an alert when the heart is clicked.</br>
+            
+          <br>- Updates the displayed score in real-time.</br>
+          
+         <br> - Resets the heart's position randomly within the game container to keep the interaction dynamic.</br>
+          
+         <br> This project showcases my understanding of HTML, CSS, and JavaScript to create an engaging web page. I've focused on responsiveness, user interactivity, and aesthetic appeal to enhance the overall user experience.</br>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

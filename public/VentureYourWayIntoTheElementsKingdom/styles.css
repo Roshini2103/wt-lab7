@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+  }
+
+header {
+    color: rgb(12, 2, 148);
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgba(128, 128, 128, 0.897);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#story-container {
+    text-align: center;
+}
+
+#story-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+footer{
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-flex{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.created{
+    font-weight: bolder;
+    font-size: x-large;
+    color: blue;
+}
+
+.titleadden{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#choices button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 0;
+    background-color: rgb(12, 2, 148);
+    color: white;
+    font-weight: lighter;
+}
+
+.bodydee{
+    background-color: black;
+}
+
+.addendum{
+    font-size: x-large;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 0;
+    background-color: rgb(12, 2, 148);
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+}
+
+#story-image {
+    max-width: 350px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}

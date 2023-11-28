@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suspenseful Mad Lib</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Suspenseful Mad Lib</h1>
+
+    <form id="madLibForm" method="post">
+        <label for="noun">Enter a noun name:</label>
+        <input type="text" id="noun" name="noun" placeholder="Example person name" required>
+
+        <label for="noun1">Enter a noun1:</label>
+        <input type="text" id="noun1" name="location" placeholder="Example location name" required>
+
+        <label for="noun2">Enter an noun2:</label>
+        <input type="text" id="noun2" name="noun2" placeholder="Example object name" required>
+
+        <label for="adjective1">Enter an adjective:</label>
+        <input type="text" id="adjective1" name="adjective1" required>
+
+        <label for="adjective2">Enter another adjective:</label>
+        <input type="text" id="adjective2" name="adjective2" required>
+
+        <label for="verb">Enter a verb:</label>
+        <input type="text" id="verb" name="verb" required>
+
+        <button type="submit">Generate Mad Lib</button>
+    </form>
+
+    <div id="madLibStory">
+        Roshini Chalarapu
+    </div>
+    
+</body>
+</html>

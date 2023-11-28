@@ -1,0 +1,32 @@
+html{
+    margin:50px;
+    border-style: solid;
+}
+img{
+    border-style: solid;
+}
+body{
+    padding: 8em 4em 8em 4em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.subheading{
+    color: #b7b9bd;
+}
+
+article{
+    padding-bottom: 1em;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.addendum{
+    padding: 1em 1em 1em 1em;
+    border-style: double;
+}
+
+high{
+    background-color: yellow;
+}
