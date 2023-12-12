@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lights Out!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lights Out!</h1>
+    </header>
+    <div class="main">
+        <div id="controls">
+            <a id="addendum" href="./index.html">New Game</a>
+        </div>
+        <div class="content">
+            Creating this Lights Out game was a challenging yet rewarding journey. Initially, the biggest hurdle was
+            simulating random clicks while maintaining a solvable configuration. To overcome this, I implemented a
+            backtracking algorithm that verified the solvability after each simulated click, ensuring players always
+            receive a playable board.
+            <br><br>
+            Another challenge was implementing the win condition. I initially attempted to track the number of squares
+            turned off, but this proved cumbersome. To simplify this, I checked for either one or zero remaining
+            squares, indicating victory.
+            <br><br>
+            Adding a click counter and scorecard enhanced the gameplay experience, allowing players to track their
+            progress and aim for lower scores. Integrating these features involved creating additional variables and
+            updating elements dynamically based on user actions.
+            <br><br>
+            Despite the challenges, this project helped me solidify my understanding of JavaScript concepts like event
+            listeners, DOM manipulation, and backtracking algorithms. Additionally, it allowed me to experiment with
+            creative elements like the pink color scheme and the scorecard, leading to a more engaging and customized
+            game.
+            <br><br>
+            Overall, this project offered a valuable learning experience, fostering my problem-solving skills and
+            ability to apply JavaScript concepts to create a functional and engaging game.
+        </div>
+    </div>
+    <footer>
+        <p>Created by <a href="">Roshini Chalarapu</a></p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

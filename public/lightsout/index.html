@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lights Out!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lights Out!</h1>
+    </header>
+    <div class="main">
+        <div id="controls">
+            <button id="new-game" onclick="initializeBoard();">New Game</button>
+            <a id="addendum" href="./addendum.html">Addendum</a>
+        </div>
+        <div id="board"></div>
+        <div class="score">
+            <p id="clicks">Clicks: <a id="counter">0</a></p>
+            <p id="scorecard">ScoreCard: <a id="scorecardpoints">0</a></p>
+        </div>
+        <div>
+            <p id="message">Click on the squares to turn them off. Turn off all the squares to win!</p>
+        </div>
+    </div>
+    <footer>
+        <p>Created by <a href="">Roshini Chalarapu</a></p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
